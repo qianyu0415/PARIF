@@ -1,4 +1,4 @@
-<h1 align="center" style="margin-top: 10px; width: 85%; margin-left: auto; margin-right: auto;">
+<h1 align="center" style="margin-top: 10px; width: 80%; margin-left: auto; margin-right: auto;">
   PARIF: Pushing the Pareto Frontier of Instruction Following and Reasoning with Curriculum Reinforcement Learning
 </h1>
 
@@ -31,19 +31,18 @@
 ---
 
 ## 💡 Overview
-
-PARIF is a two-stage curriculum reinforcement learning framework designed to push the Pareto frontier of instruction following and general reasoning. As illustrated in our framework pipeline, the workflow consists of three main components:
-
-* **Data Construction:** We synthesize a high-quality dataset by integrating constraints into seed and math questions using adaptive filling and random insertion strategies, accompanied by corresponding automated validators.
-* **RL Stage I:** Focuses on optimizing the model's reasoning paradigm. It employs **Dynamic Constraint Weighting** to overcome optimization bottlenecks and introduces a **Correctness Proxy** (evaluating linguistic fluency and logical correctness) to mitigate reward hacking.
-* **RL Stage II:** Builds upon Stage I to enhance the logical consistency between the reasoning process and the final answers. By calculating a **Consistency Score**, this stage enables the decoupled optimization of both components via our Decoupled-GRPO algorithm.
 <p align="center">
   <img alt="intro" src="images/main.png" />
   <i>
   The PARIF framework.
   </i>
 </p>
----
+PARIF is a two-stage curriculum reinforcement learning framework designed to push the Pareto frontier of instruction following and general reasoning. As illustrated in our framework pipeline, the workflow consists of three main components:
+
+* **Data Construction:** We synthesize a high-quality dataset by integrating constraints into seed and math questions using adaptive filling and random insertion strategies, accompanied by corresponding automated validators.
+* **RL Stage I:** Focuses on optimizing the model's reasoning paradigm. It employs **Dynamic Constraint Weighting** to overcome optimization bottlenecks and introduces a **Correctness Proxy** (evaluating linguistic fluency and logical correctness) to mitigate reward hacking.
+* **RL Stage II:** Builds upon Stage I to enhance the logical consistency between the reasoning process and the final answers. By calculating a **Consistency Score**, this stage enables the decoupled optimization of both components via our Decoupled-GRPO algorithm.
+
 
 ## 🚀 Quick Start
 
