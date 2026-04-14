@@ -19,7 +19,7 @@
 <div align="center"> 
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)]()
-[![Model](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/parif2026)
+[![Model](https://img.shields.io/badge/Models-Hugging%20Face-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/parif2026)
 
 </div>
 
